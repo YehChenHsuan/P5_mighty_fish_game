@@ -1,10 +1,11 @@
 /**
- * ALICE ESL Phonics P5 - Mighty Fish 3D 海底探險題庫資料
+ * ALICE ESL Phonics P5 - 大魚吃小魚英文冒險題庫 (data.js)
  * 課本學習範圍：Page 04 - 09
- * 主題：Digraph Sounds & Days of the Week
+ * 主題：Digraph Sounds & Food / Days
  */
 
-const P5_FISH_QUESTIONS = [
+window.BOOK_ID = "P5";
+const FISH_QUESTIONS = [
   {
     "id": "fish-qa-1",
     "type": "QA",
@@ -19,7 +20,7 @@ const P5_FISH_QUESTIONS = [
     ],
     "correct": "Yes, I can.",
     "audioFallback": "P5_flashcards_audios/P5_sing.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   },
   {
     "id": "fish-qa-2",
@@ -35,7 +36,7 @@ const P5_FISH_QUESTIONS = [
     ],
     "correct": "Yes, it is.",
     "audioFallback": "P5_flashcards_audios/P5_Monday.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   },
   {
     "id": "fish-qa-3",
@@ -51,7 +52,7 @@ const P5_FISH_QUESTIONS = [
     ],
     "correct": "mouth",
     "audioFallback": "P5_flashcards_audios/P5_mouth.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   },
   {
     "id": "fish-qa-4",
@@ -62,12 +63,12 @@ const P5_FISH_QUESTIONS = [
     "speechText": "Which word begins with st?",
     "options": [
       "star",
-      "thumb",
+      "brother",
       "sing"
     ],
     "correct": "star",
     "audioFallback": "P5_flashcards_audios/P5_star.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   },
   {
     "id": "fish-qa-5",
@@ -83,7 +84,7 @@ const P5_FISH_QUESTIONS = [
     ],
     "correct": "sing",
     "audioFallback": "P5_flashcards_audios/P5_sing.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   },
   {
     "id": "fish-qa-6",
@@ -99,21 +100,10 @@ const P5_FISH_QUESTIONS = [
     ],
     "correct": "Saturday",
     "audioFallback": "P5_flashcards_audios/P5_Saturday.mp3",
-    "voiceType": "speech"
+    "theme": "Digraph Sounds & Food / Days"
   }
 ];
 
 if (typeof window !== "undefined") {
-  window.P1_FISH_QUESTIONS = P5_FISH_QUESTIONS;
-  window.P5_FISH_QUESTIONS = P5_FISH_QUESTIONS;
-  window.P1_QUESTIONS_DATA = P5_FISH_QUESTIONS;
-  window.P5_QUESTIONS_DATA = P5_FISH_QUESTIONS;
-}
-
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = {
-    P1_FISH_QUESTIONS: P5_FISH_QUESTIONS,
-    P5_FISH_QUESTIONS,
-    P1_QUESTIONS_DATA: P5_FISH_QUESTIONS
-  };
+  window.FISH_QUESTIONS = FISH_QUESTIONS;
 }
