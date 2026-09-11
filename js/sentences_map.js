@@ -1,4 +1,4 @@
-{
+window.SENTENCES_AUDIO_MAP = {
   "Can you sing a song?": "assets/audios/tts/fish_q_0_44e08ae9.mp3",
   "Yes, I can.": "assets/audios/tts/fish_opt_3b925184.mp3",
   "No, I can't.": "assets/audios/tts/fish_opt_5617396f.mp3",
@@ -20,4 +20,4 @@
   "Saturday": "assets/audios/tts/fish_opt_8b705118.mp3",
   "Monday": "assets/audios/tts/fish_opt_6f8522e0.mp3",
   "Friday": "assets/audios/tts/fish_opt_c33b138a.mp3"
-}
+};
