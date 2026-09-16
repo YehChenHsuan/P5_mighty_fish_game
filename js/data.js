@@ -58,9 +58,10 @@ const FISH_QUESTIONS = [
     "id": "fish-qa-4",
     "type": "QA",
     "source": "ALICE ESL Phonics P5 Page 04 - 09",
-    "questionEn": "Which word begins with st?",
+    "type": "PHONICS",
+    "questionEn": "Which word begins with the letter ST?",
     "questionZh": "哪一個單字是 st 開頭？",
-    "speechText": "Which word begins with st?",
+    "speechText": "Which word begins with the letter ST?",
     "options": [
       "star",
       "brother",
